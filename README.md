@@ -24,3 +24,6 @@ import pyautogui #키보드 마우스 제어
 import openpyxl #엑셀파일 열기  
 import pyperclip #한글입력이 필요한 경우 엑셀의 데이터를 클립보드로 전송  
 import time #네트워크 지연 등에 대응  
+
+chart test.ipynb : openpyxl 이용한 차트그리기 테스트
+
