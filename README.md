@@ -27,3 +27,5 @@ import time #네트워크 지연 등에 대응
 
 chart test.ipynb : openpyxl 이용한 차트그리기 테스트
 
+file and sheet.ipynb : 폴더 내의 여러 개의 엑셀파일을 읽고 파일 내의 워크시트를 읽어오는 코드  
+같은 이름의 시트별로 데이터를 통합하거나 하나의 엑셀 파일로 정보를 모아볼 예정
