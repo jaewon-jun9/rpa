@@ -29,3 +29,7 @@ chart test.ipynb : openpyxl 이용한 차트그리기 테스트
 
 file and sheet.ipynb : 폴더 내의 여러 개의 엑셀파일을 읽고 파일 내의 워크시트를 읽어오는 코드  
 같은 이름의 시트별로 데이터를 통합하거나 하나의 엑셀 파일로 정보를 모아볼 예정
+
+read cells.ipynb : 폴더내 구조가 같은 복수 파일에서 같은 위치의 시트를 연 후 특정 영역의 데이터 가져오기
+
+excel address to number address.ipynb : 엑셀에서 사용하는 AAA123 같은 주소를 703,1 형태로 전환
