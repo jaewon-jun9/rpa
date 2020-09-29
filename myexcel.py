@@ -18,12 +18,18 @@ def cellRange(startCell,endCell):
         return "error range"
     else:
         return (start+end)
-def readCell(addList):
-    import openpyxl
-    all_values=[]
-    for row in range(addList[1],addList[3]+1): #row 단위로 읽기
-        row_value=[] #row 마다 셀의 값을 저장
-        for cell in range(addList[0],addList[2]+1): #row 마다 cell 단위로 데이터 읽기
-            row_value.append(load_ws.cell(row,cell).value) #row_value에 cell의 내용을 넣어주어 row를 완성
-        all_values.append(row_value) #row를 전체 리스트에 추가    
-    return all_values
+def numToExNum(i,j):
+    col=[]
+    if i==26:
+        col.insert(0,"Z")
+    else:        
+        while i>0:
+            col.insert(0,chr(i%26+64))
+            i=i//26
+    j=str(j)
+    col.append(j)
+    excol=''.join(col)
+    return (excol)
+def appExcelList(num1,ws):
+    for row in readCell(num1):
+        ws.append(row)
