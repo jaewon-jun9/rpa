@@ -33,3 +33,5 @@ file and sheet.ipynb : 폴더 내의 여러 개의 엑셀파일을 읽고 파일
 read cells.ipynb : 폴더내 구조가 같은 복수 파일에서 같은 위치의 시트를 연 후 특정 영역의 데이터 가져오기
 
 excel address to number address.ipynb : 엑셀에서 사용하는 AAA123 같은 주소를 703,1 형태로 전환
+
+myexcel.py : 엑셀 파일을 다루기 위해 만든 함수들 알파벳 주소를 숫자로 그 반대로 셀 읽기 for문
